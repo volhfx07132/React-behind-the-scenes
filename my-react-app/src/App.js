@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="app">
       <h1>Hello,Upgrade Almost there</h1>
-      <DemoOutput show={showParagraph} />
+      <DemoOutput show={false} />
       <Button onClick={toggleParagraphHandler}>Toggle Paragraph</Button>
     </div>
   );

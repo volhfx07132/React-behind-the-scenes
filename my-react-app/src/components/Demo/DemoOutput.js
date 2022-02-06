@@ -8,4 +8,4 @@ const DemoOutput = (props) => {
   return <MyParagraph>{props.show ? data : ""}</MyParagraph>;
 };
 
-export default DemoOutput;
+export default React.memo(DemoOutput);
